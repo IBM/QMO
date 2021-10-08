@@ -1,0 +1,15 @@
+name: qmo
+channels:
+ - default
+ - pytorch
+ - conda-forge
+dependencies:
+  - python=3.6
+  - rdkit
+  - pytorch=1.4.0
+  - cudatoolkit=10.0
+  - tensorboardX
+  - pip>=19.1,<20.3
+  - pip:
+    - molsets
+    - cddd
